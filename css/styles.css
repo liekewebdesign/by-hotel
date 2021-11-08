@@ -1,0 +1,143 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: #d4d7d4;
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #d4d7d4;
+  font-size: 3.5rem;
+}
+
+h3 {
+  padding-top: 0.75rem;
+}
+
+#title {
+  background-color: #858482;
+}
+
+/* Nav Bar */
+.navbar {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/* Hero */
+.hero-image {
+  background-image: url("../images/by-hotel-header.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 35%;
+  padding-left: 12%;
+}
+
+.hero-p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: #d4d7d4;
+}
+
+/* Features */
+#features {
+  padding: 5% 12%;
+}
+
+.feature-col {
+  padding: 2%;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+/* CTA */
+.cta-image {
+  background-image: url("../images/by-hotel-contact.jpg");
+  width: 100%;
+  height: 500px;;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cta-text {
+  padding: 8% 12%;
+}
+
+.book-button {
+  margin-top: 2rem;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer Section */
+#footer {
+  padding: 1% 12%;
+  background-color: #858482;
+  text-align: center;
+}
+
+.socials {
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  color: white;
+  padding: 10px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 0.75rem;
+}
+
+
+@media (max-width: 1028px) {
+
+  h3 {
+    margin-top: 1rem;
+  }
+
+  .hero-image {
+    height: 450px;
+  }
+
+  .hero-text {
+    top: 25%;
+  }
+
+  .feature-col {
+    text-align: center;
+  }
+
+  .feature-img {
+    width: 60%;
+  }
+
+  #cta {
+    text-align: center;
+  }
+
+  #footer {
+    padding: 3% 12%;
+  }
+
+}
